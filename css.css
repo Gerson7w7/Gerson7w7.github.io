@@ -1,0 +1,88 @@
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+.flex-shrink-1 {
+    background-color: #fcca46;
+    border-right-style: solid;
+}
+.nav-link {
+    font-size: 20px;
+}
+.info {
+    color: #000;
+}
+p {
+    text-align: justify;
+    color: #000;
+}
+.titulo {
+    font-size: 25px;
+}
+.img-fluid {
+    margin-top: 30px;
+}
+.w-100 {
+    background-color: #619b8a;
+}
+.col1 {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 20px;
+    border-style:dashed;
+    background-color: #a1c181;
+}
+.d-block {
+    opacity:0.7;
+    width: 50px;
+    height: 375px;
+}
+.carousel-inner {
+    border-style:solid;
+}
+.card-body {
+    background-color: #fe7f2d;
+}
+.row {
+    justify-content: space-evenly;
+}
+.accordion-button {
+    background-color: #fcca46;
+}
+.accordion-collapse {
+    background-color: #fe7f2d;
+}
+.accordion-button:not(.collapsed) {
+    color: #619b8a;
+    background-color: #fcca46;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.btn-primary {
+    color: #a1c181;
+    background-color: #233d4d;
+    border-color: #a1c181;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fe7f2d;
+    background-clip: border-box;
+    border: 1px solid #233d4d;
+    border-radius: .25rem;
+}
