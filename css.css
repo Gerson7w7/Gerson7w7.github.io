@@ -1,88 +1,38 @@
-a:link {
-	color: #000000;
-	text-decoration: none;
+.perfil {
+    width: 150px;
+    height: 150px;
 }
-a:visited {
-	color: #000000;
-	text-decoration: none;
-}
-a:hover {
-	color: #000000;
-	text-decoration: none;
-}
-a:active {
-	color: #000000;
-	text-decoration: none;
-}
-.flex-shrink-1 {
-    background-color: #fcca46;
-    border-right-style: solid;
-}
-.nav-link {
-    font-size: 20px;
-}
-.info {
-    color: #000;
-}
-p {
-    text-align: justify;
-    color: #000;
-}
-.titulo {
-    font-size: 25px;
-}
-.img-fluid {
-    margin-top: 30px;
-}
-.w-100 {
-    background-color: #619b8a;
-}
-.col1 {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 20px;
-    padding: 20px;
-    border-style:dashed;
-    background-color: #a1c181;
-}
-.d-block {
-    opacity:0.7;
+
+.datos {
     width: 50px;
-    height: 375px;
+    height: 50px;
 }
-.carousel-inner {
-    border-style:solid;
+
+.titulos {
+    margin-top: 20px;
+    text-align: center;
 }
-.card-body {
-    background-color: #fe7f2d;
+
+.pr {
+    width: 1000px;
+    height: 500px;
 }
-.row {
-    justify-content: space-evenly;
+
+.fondo-transparente {
+    background-color: rgba(0, 0, 0, 0.7); /* El último valor (0.7) controla la opacidad */
+    color: white; /* Color del texto */
+    padding: 10px; /* Añade un poco de espaciado interno para mejorar la legibilidad */
+    border-radius: 10px;
 }
-.accordion-button {
-    background-color: #fcca46;
+
+/* Clase para el contenedor principal */
+.container-hard-skills {
+    max-width: 800px; /* Ajusta el ancho máximo según lo desees */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
 }
-.accordion-collapse {
-    background-color: #fe7f2d;
-}
-.accordion-button:not(.collapsed) {
-    color: #619b8a;
-    background-color: #fcca46;
-    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
-}
-.btn-primary {
-    color: #a1c181;
-    background-color: #233d4d;
-    border-color: #a1c181;
-}
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fe7f2d;
-    background-clip: border-box;
-    border: 1px solid #233d4d;
-    border-radius: .25rem;
+
+/* Clase para el contenido */
+.contenido-hard-skills {
+    text-align: center; /* Centra el texto dentro del contenido */
+    margin-top: 20px; /* Añade un margen superior para separar el contenido del título */
 }
